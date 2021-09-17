@@ -1,3 +1,8 @@
+import popmotion from "popmotion";
+import "./useless";
+
+console.log("Keep going, Bro!!!");
+
 // code taken from one of the examples on popmotion.io
 const ball = document.querySelector(".box");
 const divStyler = popmotion.styler(ball);
@@ -18,3 +23,4 @@ popmotion.listen(document, "mouseup").start(() => {
     })
     .start(ballXY);
 });
+
